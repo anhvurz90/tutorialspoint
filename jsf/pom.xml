@@ -17,8 +17,8 @@
 
     <modules>
     	<module>helloworld</module>
-	<!--module>spring-mvc</module>
-	<module>spring-security</module>
+	<module>managedbean</module>
+	<!--module>spring-security</module>
 	<module>spring-mongodb</module>
 	<module>spring-batch</module-->
     </modules>
