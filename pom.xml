@@ -24,6 +24,7 @@
 
   <modules>
     <module>jsf</module>
+    <module>junitest</module>
   </modules>
 
   <dependencies>

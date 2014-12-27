@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>com.anhvurz90.tutorialspoint-practice</artifactId>
+        <groupId>com.anhvurz90</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>com.anhvurz90.tutorialspoint-practice.junitest</artifactId>
+    <packaging>jar</packaging>
+    <name>junitest</name>
+    <description>java tutorialspoint junitest practice</description>
+
+    <properties>
+    	<junitest.version>4.11</junitest.version>
+    </properties>
+
+    <modules>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junitest.version}</version>
+	    <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
